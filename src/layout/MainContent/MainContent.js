@@ -7,7 +7,9 @@ const MainContent = ({ targetDate, setFunction }) => {
     return (
         <div id="main-content">
             <div className="content-wrapper">
-                <InputDate changeFunction={setFunction} />
+                <InputDate 
+                    changeFunction={setFunction}
+                />
                 <CountdownTimer
                     targetDate={targetDate}
                 />
