@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { CountdownTimer } from "./components/CountdownTimer";
-import { InputDate } from "./components/InputDate";
+import { Header } from "./layout/Header/Header";
+import { MainContent } from "./layout/MainContent/MainContent";
 import "./App.css"
-import { ChosenTime } from "./components/ChosenTime";
+
 
 
 function App() {
@@ -13,11 +13,11 @@ function App() {
   }, [date])
   return (
     <div className="App">
-      <CountdownTimer
+      <Header />
+      <MainContent
         targetDate={date}
+        setFunction={setDate}
       />
-      <ChosenTime dateString={date}/>
-      <InputDate changeFunction={setDate} />
     </div>
   );
 }

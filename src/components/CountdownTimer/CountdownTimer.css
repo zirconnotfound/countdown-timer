@@ -1,0 +1,41 @@
+.clock {
+    display: flex;
+    flex-direction: row;
+    font-family: "Orbitron";
+    margin-bottom: 24px;
+}
+.clock-title {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 12px;
+    margin-right: 12px;
+}
+.clock-item {
+    min-width: 76px;
+    margin-right: 6px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clock span {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+}
+.clock-item h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+}
+.clock-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+.input-box {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+.time-input {
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 6px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 12px;
+    min-width: 200px;
+    cursor: pointer;
+}
+.choose-button {
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
+    border: 2px #fff solid;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.choose-button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333;
+}

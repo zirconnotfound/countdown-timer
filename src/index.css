@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://anhkhoatqt11.github.io/demnguockithi/images/background3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;

@@ -1,3 +1,5 @@
+import "./InvalidInput.css"
+
 const InvalidInput = () => {
     return (
         <div className="expire-notice">
